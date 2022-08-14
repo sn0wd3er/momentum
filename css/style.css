@@ -1,0 +1,94 @@
+
+@import "reset.css";
+@import "variable.css";
+@import url('https://webfontworld.github.io/NexonMaplestory/NexonMaplestory.css');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'NexonMaplestory';
+    background-size : cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    width:100vw;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#clock {
+    font-size:70px;
+}
+.login-form {
+    margin:50px 0px 30px 0px;
+}
+.login-form input{
+    border : none;
+    width:200px;
+    height:50px;
+    background-color: transparent;
+    border-bottom: 3px solid var(--border-color); 
+    color:white;
+}
+.login-form button {
+    width:80px;
+    height:50px;
+    border-radius: 20px;
+    margin-left:20px;
+    background-color: transparent;
+    color:white;
+    font-size:20px;
+    border: none;
+}
+
+#greeting {
+    margin:50px 0px 30px 0px;
+    font-size:30px;
+}
+
+#todo-form input{
+    background-color: transparent;
+    width:300px;
+    height:50px;
+    border:none;
+    border-bottom: 3px solid var(--border-color);
+    color:white;
+}
+
+#todo-list {
+    margin:20px 0px;
+}
+#todo-list li {
+    margin: 10px 0px;
+}
+#todo-list li button{
+    margin-left: 15px;
+    background-color: transparent;
+    border:none;
+}
+#weather {
+    position: fixed;
+    top:20px;
+}
+#quotes {
+    position: fixed;
+    bottom: 50px;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#quotes span {
+    margin : 0px 0px 10px 0px;
+    font-size:15px;
+}
+#quotes span:last-child {
+    font-size: 11px;;
+}
+.hidden {
+    display:none;
+}
